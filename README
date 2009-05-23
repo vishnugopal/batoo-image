@@ -3,13 +3,11 @@ Batoo Image is a dependency-free java application that reads barcodes from bitma
 
 It uses the excellent batoo available under GPL2 at http://people.inf.ethz.ch/adelmanr/batoo/
 
-
 Usage:
 
 Once you have the source, compile via:
 
-javac batooImage/application/ImageLoader.java
-
+./build/build.sh
 
 and then to use:
 
@@ -17,6 +15,7 @@ java batooImage.application.ImageLoader test/medium.bmp 640 480
 
 i.e. java batooImage.application.ImageLoader <file> <width> <height>
 
+<file> should be a path to a valid _bitmap_ (i.e. BMP) image.
 
 -- 
 
@@ -27,3 +26,4 @@ All of this is released under the GNU GPL version 2, or at your option any other
 A copy of the license is available at http://www.gnu.org/copyleft/gpl.html
 
 Vishnu Gopal. May 2009.
+
