@@ -63,6 +63,7 @@ class ImageLoader {
 		Barcode recognizedBarcode = imageDevice.recognize();
 		
 		System.out.println("The recognized barcode is: " + recognizedBarcode.toString());
+		System.out.println("Valid: " + recognizedBarcode.isValid());
 		
   }
 }

@@ -151,7 +151,7 @@ public class BarcodeDecoder {
 	public static Barcode recognizeBarcode(Device device) {
 
 		// PARAMETERS:
-		int amount_scanlines = 30;
+		int amount_scanlines = 100;
 		int w = device.getImageWidth();
 		int h = device.getImageHeight();
 
